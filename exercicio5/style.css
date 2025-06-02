@@ -1,1 +1,8 @@
-/* Use :focus para o input e :hover para o botão */
+input:focus {
+    boder:2px solid blue;
+    outline: none;
+}
+button:hover {
+    background-color:black
+    cursor: pointer;
+}

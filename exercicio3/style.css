@@ -1,1 +1,16 @@
 /* Estilize os links com :hover aqui */
+nav{
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    transition: color 0.3s
+}
+nav a:hover {
+    color: pink;
+}

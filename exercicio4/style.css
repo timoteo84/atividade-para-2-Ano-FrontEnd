@@ -1,1 +1,8 @@
-/* Use :first-child e :last-child para estilizar os itens da lista */
+/*deixe o primeiro item em negrito */
+ul li:first-child {
+    front-weight: bold;
+}
+/* deixar o ultimo item em italico*/
+ul li:last-child{
+    front-style: italic;
+}
